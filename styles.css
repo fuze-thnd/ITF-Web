@@ -9,3 +9,11 @@ nav {
 body {
     margin: 0;
 }
+
+img{
+    width: 16rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
