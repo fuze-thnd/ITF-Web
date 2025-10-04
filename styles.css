@@ -1,21 +1,89 @@
 nav {
-    background-color: coral;
+    background-color: grey;
+    color: white;
     display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body {
+    background-color: #F9FAF4;
     margin: 0;
+    font-family: "Outfit", sans-serif;
 }
 
-img{
-    width: 16rem;
-}
 .header {
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    text-indent: 10px;
+}
+
+.container {
+    display: flex;
+
+}
+.AccountOverview {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.FinanacialTools {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+#Block {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#Detail {
+    padding-left: 15px;
+    line-height: 4px;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    font-size: small;
+    text-align: right;
+    color: #F9FAF4;
+    background-color: #03C04A;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+  background-color: #029c3b;
+}
+
+input {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    background-color: #F9FAF4;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+select {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: #F9FAF4;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
 }
