@@ -27,15 +27,17 @@ body {
 #head1 {
     color: #E3735E;
 }
+
 .output {
     padding-left: 100px;
+    margin-bottom: 10px;
 }
 
 .container {
     display: flex;
     padding-left: 100px;
     padding-bottom: 50px;
-    gap: 100px
+    gap: 20px
 }
 
 .AccountOverview {
