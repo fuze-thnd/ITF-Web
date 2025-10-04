@@ -19,7 +19,7 @@
     </nav>
 
     <div class="header">
-        <img src="meme-crunchy-cat-pack.png" height=100px>
+        <img src="img/meme-crunchy-cat-pack.png" height=125px>
         <div>
             <h1 id="head1">ITF Simple Bank</h1>
             <p>Welcome to my website of HTML + CSS + JS!</p>
@@ -27,14 +27,14 @@
     </div>
 
     <div class="output">
-        <textarea id="logOutput" readonly style="width: 1000px; height: 100px;"></textarea>
+        <textarea id="logOutput" readonly style="width: 1120px; height: 100px;"></textarea>
     </div>
 
     <div class="container">
         <div class="AccountOverview">
             <h2>Account Overview</h2>
             <div id="Block">
-                <img src="stonks_meme_1254.png" height="100px">
+                <img src="img/stonks_meme_1254.png" height="100px">
                 <div>
                     <h3>Account Information</h3>
                     <div id="Detail">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div id="Block">
-                <img src="colorful-3d-briefcase-icon.png" height="100px">
+                <img src="img/colorful-3d-briefcase-icon.png" height="100px">
                 <div>
                     <h3>Balance Information</h3>
                     <div id="Detail">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div id="Block">
-                <img src="3d-bank-png-image.png" height="100px">
+                <img src="img/3d-bank-png-image.png" height="100px">
                 <div>
                     <h3>Bank Operation</h3>
                     <div id="Detail">
@@ -75,7 +75,18 @@
         <div class="FinancialTools">
             <h2>Financial Tools</h2>
             <div id="Block">
-
+                <img src="img/gold-coin-with-different-currency.png" height="100">
+                <div>
+                    <h3>Currency Converter</h3>
+                    <div id="Detail">
+                        <p>Input Balance:  <input type="number" id="curInput"></p>
+                        <p>Output Balance: <input type="number" id="curOutput"></p>
+                        <p>Input Currency: <select id="currency">
+                            <option value="usd">USD</option>
+                            <option value="thb">THB</option>
+                        </select><button type="submit" id="convert">Convert</button></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

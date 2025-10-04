@@ -97,6 +97,10 @@ button:hover {
   background-color: #029c3b;
 }
 
+#convert {
+    margin-left: 5px;
+}
+
 input {
     font-family: "Outfit", sans-serif;
     font-size: medium;
@@ -105,6 +109,10 @@ input {
     border-radius: 4px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#curInput {
+    margin-left: 14px;
 }
 
 select {
