@@ -21,13 +21,13 @@
     <div class="header">
         <img src="meme-crunchy-cat-pack.png" height=100px>
         <div>
-            <h1>ITF Simple Bank</h1>
+            <h1 id="head1">ITF Simple Bank</h1>
             <p>Welcome to my website of HTML + CSS + JS!</p>
         </div>
     </div>
 
     <div class="output">
-        <output>name</output>
+        <output>Output Here!</output>
     </div>
 
     <div class="container">
@@ -43,7 +43,6 @@
                     </div>
                 </div>
             </div>
-            <p></p>
             <div id="Block">
                 <img src="colorful-3d-briefcase-icon.png" height="100px">
                 <div>
@@ -54,11 +53,10 @@
                         <p>Current cash balance:</p>
                         <input type="number" id="cash">
                         <p></p>
-                        <button type="submit">Change</button>
+                        <button type="submit" id="change">Change</button>
                     </div>
                 </div>
             </div>
-            <p></p>
             <div id="Block">
                 <img src="3d-bank-png-image.png" height="100px">
                 <div>
@@ -67,15 +65,19 @@
                         <select id="operation">
                             <option value="deposit">Deposit</option>
                             <option value="withdraw">Withdraw</option>
-                        <p>&nbsp</p>
+                        </select>
                         <input type="number" id="bankop">
+                        <button type="submit" id="proceed">Proceed</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="FinancialTools">
+        <!-- <div class="FinancialTools">
             <h2>Financial Tools</h2>
-        </div>
+            <div id="Block">
+
+            </div>
+        </div> -->
     </div>
     <script src="script.js"></script>
 </body>

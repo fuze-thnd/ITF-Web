@@ -1,5 +1,5 @@
 nav {
-    background-color: grey;
+    background-color: #E3735E;
     color: white;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ nav {
 }
 
 body {
-    background-color: #F9FAF4;
+    background-color: #ededed;
     margin: 0;
     font-family: "Outfit", sans-serif;
 }
@@ -19,41 +19,67 @@ body {
     display: flex;
     align-items: center;
     padding-top: 10px;
-    padding-left: 50px;
-    text-indent: 10px;
+    padding-left: 100px;
+    gap: 10px;
+    line-height: 10px;
+}
+
+#head1 {
+    color: #E3735E;
+}
+.output {
+    padding-left: 100px;
 }
 
 .container {
     display: flex;
-
+    padding-left: 100px;
+    padding-bottom: 50px;
+    gap: 100px
 }
+
 .AccountOverview {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 200px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.FinanacialTools {
+.FinancialTools {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #Block {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    gap: 20px;
+    background-color:white;
+    border-radius: 8px;
+    /* outline: auto;
+    outline-color: lightgray; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 
 #Detail {
-    padding-left: 15px;
     line-height: 4px;
 }
 
 button {
     font-family: "Outfit", sans-serif;
-    font-size: small;
+    font-size: medium;
     text-align: right;
     color: #F9FAF4;
     background-color: #03C04A;
@@ -61,8 +87,8 @@ button {
     border: none;
     cursor: pointer;
     transition-duration: 0.5s;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 button:hover {
@@ -72,7 +98,8 @@ button:hover {
 input {
     font-family: "Outfit", sans-serif;
     font-size: medium;
-    background-color: #F9FAF4;
+    background-color: white;
+    border-color: lightgrey;
     border-radius: 4px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -81,8 +108,9 @@ input {
 select {
     font-family: "Outfit", sans-serif;
     font-size: medium;
-    text-align: center;
-    background-color: #F9FAF4;
+    align-items: center;
+    background-color: white;
+    border-color: lightgrey;
     border-radius: 4px;
     padding-top: 5px;
     padding-bottom: 5px;;
