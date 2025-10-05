@@ -18,9 +18,9 @@ body {
 .header {
     display: flex;
     align-items: center;
-    padding-top: 10px;
-    padding-left: 100px;
-    gap: 10px;
+    padding: 20px;
+    padding-left: 200px;
+    gap: 20px;
     line-height: 10px;
 }
 
@@ -29,13 +29,12 @@ body {
 }
 
 .output {
-    padding-left: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .container {
     display: flex;
-    padding-left: 100px;
+    justify-content: center;
     padding-bottom: 50px;
     gap: 20px
 }
@@ -64,7 +63,7 @@ body {
 
 #Block {
     display: flex;
-    align-items: center;
+    align-items: start;
     padding: 15px;
     margin-bottom: 10px;
     gap: 20px;
@@ -124,4 +123,14 @@ select {
     border-radius: 4px;
     padding-top: 5px;
     padding-bottom: 5px;;
+}
+
+#logOutput {
+    display: flex;
+    width: 1120px;
+    min-height: 125px;
+    margin: auto;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border: none;
+    border-radius: 8px;
 }
